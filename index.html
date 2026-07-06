@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0B1623">
+
+<!-- SEO -->
+<title>AOSIS IA Solutions | IA, SEO Local et Génération de Clients à Québec</title>
+<meta name="description" content="AOSIS IA Solutions accompagne les entreprises locales grâce au SEO local, l'intelligence artificielle, l'automatisation et des stratégies numériques sur mesure afin d'augmenter leur visibilité et générer davantage de clients.">
+<meta name="keywords" content="IA Québec, SEO local, agence IA, automatisation, génération de clients, Google Business Profile, Québec">
+<meta name="author" content="AOSIS IA Solutions">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://aosis-ia.com/">
+
+<!-- OpenGraph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_CA">
+<meta property="og:title" content="AOSIS IA Solutions | IA, SEO Local et Génération de Clients à Québec">
+<meta property="og:description" content="L'intelligence artificielle au service des entreprises locales : visibilité, clients et automatisation.">
+<meta property="og:url" content="https://aosis-ia.com/">
+<meta property="og:site_name" content="AOSIS IA Solutions">
+<meta property="og:image" content="https://aosis-ia.com/og-image.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AOSIS IA Solutions | IA & SEO Local à Québec">
+<meta name="twitter:description" content="L'IA au service des entreprises locales : visibilité, clients, automatisation.">
+<meta name="twitter:image" content="https://aosis-ia.com/og-image.jpg">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 220'%3E%3Ccircle cx='100' cy='100' r='70' stroke='%232F80ED' stroke-width='3' fill='none'/%3E%3Ccircle cx='100' cy='30' r='12' fill='%235CE1E6'/%3E%3Ccircle cx='40' cy='130' r='12' fill='%235CE1E6'/%3E%3Ccircle cx='160' cy='130' r='12' fill='%235CE1E6'/%3E%3Ccircle cx='100' cy='100' r='18' fill='%232F80ED'/%3E%3Ccircle cx='100' cy='100' r='8' fill='%23FFFFFF'/%3E%3Cline x1='100' y1='30' x2='40' y2='130' stroke='%235CE1E6' stroke-width='3'/%3E%3Cline x1='100' y1='30' x2='160' y2='130' stroke='%235CE1E6' stroke-width='3'/%3E%3Cline x1='40' y1='130' x2='160' y2='130' stroke='%232F80ED' stroke-width='2'/%3E%3Cline x1='100' y1='100' x2='100' y2='30' stroke='%235CE1E6' stroke-width='3'/%3E%3Cline x1='100' y1='100' x2='40' y2='130' stroke='%235CE1E6' stroke-width='3'/%3E%3Cline x1='100' y1='100' x2='160' y2='130' stroke='%235CE1E6' stroke-width='3'/%3E%3C/svg%3E">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Schema.org LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://aosis-ia.com/#business",
+  "name": "AOSIS IA Solutions",
+  "image": "https://aosis-ia.com/og-image.jpg",
+  "description": "Agence spécialisée en intelligence artificielle pour les entreprises locales à Québec.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Québec",
+    "addressRegion": "QC",
+    "addressCountry": "CA"
+  },
+  "telephone": "+1-367-330-2814",
+  "email": "aosis.iasolutions@gmail.com",
+  "priceRange": "$$",
+  "areaServed": "Québec",
+  "url": "https://aosis-ia.com",
+  "sameAs": []
+}
+</script>
+
+<style>
+/* ============ RESET & BASE ============ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+:root{
+  --bg:#0B1623;
+  --bg-2:#0E1B2B;
+  --blue:#2F80ED;
+  --cyan:#5CE1E6;
+  --white:#FFFFFF;
+  --gray:#C8D1DC;
+  --gray-2:#8A97A8;
+  --border:rgba(200,209,220,0.08);
+  --glass:rgba(255,255,255,0.04);
+  --glass-strong:rgba(255,255,255,0.06);
+  --gradient:linear-gradient(135deg,#2F80ED 0%,#5CE1E6 100%);
+  --gradient-soft:linear-gradient(135deg,rgba(47,128,237,0.15) 0%,rgba(92,225,230,0.15) 100%);
+  --shadow-sm:0 4px 24px rgba(0,0,0,0.25);
+  --shadow-lg:0 20px 60px rgba(0,0,0,0.35);
+  --radius-sm:12px;
+  --radius:20px;
+  --radius-lg:28px;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --container:1200px;
+}
+body{
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  background:var(--bg);
+  color:var(--white);
+  line-height:1.6;
+  font-weight:400;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+
+/* ============ LAYOUT ============ */
+.container{
+  width:100%;
+  max-width:var(--container);
+  margin:0 auto;
+  padding:0 24px;
+}
+section{padding:120px 0;position:relative}
+@media (max-width:768px){section{padding:80px 0}}
+
+/* ============ TYPOGRAPHY ============ */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:13px;font-weight:500;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--cyan);
+  padding:8px 16px;border-radius:999px;
+  background:rgba(92,225,230,0.08);
+  border:1px solid rgba(92,225,230,0.2);
+  margin-bottom:24px;
+}
+.eyebrow::before{
+  content:"";width:6px;height:6px;border-radius:50%;
+  background:var(--cyan);box-shadow:0 0 12px var(--cyan);
+}
+h1,h2,h3,h4{font-weight:700;letter-spacing:-.02em;line-height:1.1}
+h1{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:800}
+h2{font-size:clamp(2rem,4.5vw,3.25rem);margin-bottom:20px}
+h3{font-size:1.4rem;margin-bottom:12px}
+p{color:var(--gray);font-size:1.05rem}
+.lead{font-size:clamp(1.05rem,1.5vw,1.25rem);color:var(--gray);max-width:640px}
+.gradient-text{
+  background:var(--gradient);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;color:transparent;
+}
+.section-head{text-align:center;max-width:720px;margin:0 auto 64px}
+.section-head p{margin-top:16px}
+
+/* ============ BUTTONS ============ */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:16px 32px;border-radius:999px;
+  font-weight:600;font-size:15px;
+  transition:all .4s var(--ease);
+  position:relative;white-space:nowrap;
+}
+.btn-primary{
+  background:var(--gradient);color:var(--white);
+  box-shadow:0 10px 30px rgba(47,128,237,0.35),0 0 0 1px rgba(255,255,255,0.05) inset;
+}
+.btn-primary:hover{
+  transform:translateY(-2px);
+  box-shadow:0 18px 40px rgba(47,128,237,0.5),0 0 40px rgba(92,225,230,0.3);
+}
+.btn-secondary{
+  background:var(--glass);color:var(--white);
+  border:1px solid var(--border);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+}
+.btn-secondary:hover{
+  background:var(--glass-strong);
+  border-color:rgba(255,255,255,0.2);
+  transform:translateY(-2px);
+}
+.btn svg{transition:transform .3s var(--ease)}
+.btn:hover svg{transform:translateX(3px)}
+
+/* ============ LOGO STYLES ============ */
+.logo-svg{
+  width:100%;
+  height:100%;
+}
+.logo-svg .outer-circle{
+  stroke:var(--blue);
+  animation:drawCircle 2s var(--ease) both;
+}
+.logo-svg .node{
+  fill:var(--cyan);
+  animation:fadeIn 0.6s var(--ease) both;
+}
+.logo-svg .center-circle{
+  fill:var(--blue);
+  animation:scaleIn 0.6s var(--ease) both;
+}
+.logo-svg .center-dot{
+  fill:var(--white);
+  animation:scaleIn 0.6s var(--ease) 0.2s both;
+}
+.logo-svg .connection{
+  stroke:var(--cyan);
+  animation:drawLine 1s var(--ease) both;
+}
+.logo-svg .connection-bottom{
+  stroke:var(--blue);
+}
+@keyframes drawCircle{
+  from{stroke-dasharray:440;stroke-dashoffset:440}
+  to{stroke-dasharray:440;stroke-dashoffset:0}
+}
+@keyframes drawLine{
+  from{stroke-dasharray:100;stroke-dashoffset:100;opacity:0}
+  to{stroke-dasharray:100;stroke-dashoffset:0;opacity:1}
+}
+@keyframes fadeIn{
+  from{opacity:0;transform:scale(0)}
+  to{opacity:1;transform:scale(1)}
+}
+@keyframes scaleIn{
+  from{opacity:0;transform:scale(0)}
+  to{opacity:1;transform:scale(1)}
+}
+
+/* ============ NAV ============ */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  padding:18px 0;transition:all .4s var(--ease);
+}
+.nav.scrolled{
+  background:rgba(11,22,35,0.75);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+  padding:12px 0;
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;font-weight:700;font-size:1.1rem}
+.logo-mark{
+  width:42px;height:42px;border-radius:10px;
+  display:grid;place-items:center;
+  box-shadow:0 8px 24px rgba(47,128,237,0.4);
+}
+.nav-links{display:flex;gap:36px;align-items:center}
+.nav-links a{font-size:14.5px;color:var(--gray);transition:color .3s}
+.nav-links a:hover{color:var(--white)}
+.nav-cta{padding:10px 22px;font-size:14px}
+.menu-toggle{display:none;width:40px;height:40px;border-radius:10px;background:var(--glass);border:1px solid var(--border)}
+.menu-toggle span{display:block;width:18px;height:2px;background:#fff;margin:3px auto;transition:.3s}
+@media (max-width:900px){
+  .nav-links{
+    position:fixed;top:72px;left:16px;right:16px;
+    flex-direction:column;gap:0;padding:8px;
+    background:rgba(14,27,43,0.95);backdrop-filter:blur(24px);
+    border:1px solid var(--border);border-radius:var(--radius);
+    transform:translateY(-20px);opacity:0;pointer-events:none;
+    transition:all .4s var(--ease);
+  }
+  .nav-links.open{transform:translateY(0);opacity:1;pointer-events:auto}
+  .nav-links a{padding:14px 18px;width:100%;border-radius:12px}
+  .nav-links a:hover{background:var(--glass)}
+  .nav-cta{margin:8px}
+  .menu-toggle{display:block}
+}
+
+/* ============ HERO ============ */
+.hero{
+  min-height:100vh;padding-top:160px;padding-bottom:100px;
+  display:flex;align-items:center;position:relative;overflow:hidden;
+}
+.hero-bg{
+  position:absolute;inset:0;z-index:0;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 0%,rgba(47,128,237,0.25),transparent 60%),
+    radial-gradient(ellipse 60% 50% at 80% 40%,rgba(92,225,230,0.15),transparent 60%),
+    radial-gradient(ellipse 70% 60% at 20% 80%,rgba(47,128,237,0.12),transparent 60%);
+}
+.hero-grid{
+  position:absolute;inset:0;z-index:0;opacity:.35;
+  background-image:
+    linear-gradient(rgba(200,209,220,0.05) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(200,209,220,0.05) 1px,transparent 1px);
+  background-size:60px 60px;
+  mask-image:radial-gradient(ellipse at center,black 30%,transparent 75%);
+  -webkit-mask-image:radial-gradient(ellipse at center,black 30%,transparent 75%);
+}
+#particles{position:absolute;inset:0;z-index:1;pointer-events:none}
+.hero-content{position:relative;z-index:2;text-align:center;max-width:900px;margin:0 auto}
+.hero-logo{
+  width:120px;height:120px;
+  margin:0 auto 32px;
+  animation:float 6s ease-in-out infinite;
+  filter:drop-shadow(0 20px 60px rgba(47,128,237,0.5)) drop-shadow(0 0 80px rgba(92,225,230,0.2));
+}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.hero h1{margin-bottom:24px}
+.hero .lead{margin:0 auto 40px;font-size:clamp(1.05rem,1.6vw,1.3rem)}
+.hero-cta{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:8px 18px;border-radius:999px;
+  background:var(--glass);border:1px solid var(--border);
+  font-size:13px;color:var(--gray);
+  margin-bottom:28px;backdrop-filter:blur(12px);
+}
+.hero-badge .dot{width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 10px #22c55e}
+
+/* ============ CARDS ============ */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media (max-width:900px){.cards{grid-template-columns:1fr}}
+.card{
+  position:relative;padding:36px 32px;
+  background:var(--glass);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  transition:all .5s var(--ease);
+  overflow:hidden;
+}
+.card::before{
+  content:"";position:absolute;inset:0;border-radius:inherit;
+  background:linear-gradient(135deg,rgba(47,128,237,0.12),rgba(92,225,230,0.08));
+  opacity:0;transition:opacity .5s var(--ease);
+}
+.card:hover{
+  transform:translateY(-6px);
+  border-color:rgba(92,225,230,0.25);
+  box-shadow:0 20px 50px rgba(0,0,0,0.4),0 0 40px rgba(47,128,237,0.15);
+}
+.card:hover::before{opacity:1}
+.card > *{position:relative;z-index:1}
+.card-icon{
+  width:56px;height:56px;border-radius:14px;
+  background:var(--gradient-soft);
+  border:1px solid rgba(92,225,230,0.2);
+  display:grid;place-items:center;margin-bottom:24px;
+  color:var(--cyan);
+}
+.card-icon svg{width:26px;height:26px}
+.card h3{font-size:1.3rem}
+.card p{font-size:.98rem}
+
+/* ============ SERVICES ============ */
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media (max-width:900px){.services{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.services{grid-template-columns:1fr}}
+.service{
+  padding:32px 28px;border-radius:var(--radius);
+  background:var(--glass);border:1px solid var(--border);
+  transition:all .4s var(--ease);
+  display:flex;flex-direction:column;gap:16px;
+  position:relative;overflow:hidden;
+}
+.service::after{
+  content:"";position:absolute;top:0;left:0;right:0;height:1px;
+  background:var(--gradient);transform:scaleX(0);transform-origin:left;
+  transition:transform .5s var(--ease);
+}
+.service:hover{transform:translateY(-4px);border-color:rgba(47,128,237,0.3);background:var(--glass-strong)}
+.service:hover::after{transform:scaleX(1)}
+.service-icon{
+  width:48px;height:48px;border-radius:12px;
+  background:var(--gradient);
+  display:grid;place-items:center;color:#fff;
+  box-shadow:0 8px 20px rgba(47,128,237,0.3);
+}
+.service-icon svg{width:22px;height:22px}
+.service h3{font-size:1.15rem;margin:0}
+.service p{font-size:.95rem;margin:0}
+
+/* ============ STATS ============ */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+@media (max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{
+  text-align:center;padding:40px 24px;
+  border-radius:var(--radius);
+  background:var(--glass);border:1px solid var(--border);
+  position:relative;overflow:hidden;
+}
+.stat::before{
+  content:"";position:absolute;inset:-1px;border-radius:inherit;
+  background:var(--gradient);opacity:0;
+  transition:opacity .4s;z-index:-1;
+  padding:1px;
+  -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;mask-composite:exclude;
+}
+.stat:hover::before{opacity:1}
+.stat-num{
+  font-size:clamp(2.5rem,5vw,3.75rem);font-weight:800;
+  background:var(--gradient);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;
+  letter-spacing:-.03em;line-height:1;margin-bottom:12px;
+}
+.stat-label{color:var(--gray);font-size:.95rem;font-weight:500}
+
+/* ============ TIMELINE ============ */
+.timeline{
+  max-width:720px;margin:0 auto;position:relative;
+  padding-left:40px;
+}
+.timeline::before{
+  content:"";position:absolute;left:15px;top:10px;bottom:10px;width:2px;
+  background:linear-gradient(180deg,var(--blue),var(--cyan),transparent);
+}
+.step{position:relative;padding:0 0 48px 32px}
+.step:last-child{padding-bottom:0}
+.step::before{
+  content:"";position:absolute;left:-32px;top:4px;
+  width:32px;height:32px;border-radius:50%;
+  background:var(--gradient);
+  display:grid;place-items:center;
+  box-shadow:0 0 0 6px rgba(47,128,237,0.15),0 8px 24px rgba(47,128,237,0.4);
+}
+.step::after{
+  content:attr(data-num);
+  position:absolute;left:-32px;top:4px;
+  width:32px;height:32px;
+  display:grid;place-items:center;
+  font-weight:700;font-size:14px;color:#fff;
+}
+.step h3{font-size:1.4rem;margin-bottom:8px}
+.step p{color:var(--gray)}
+
+/* ============ TESTIMONIALS ============ */
+.testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media (max-width:900px){.testimonials{grid-template-columns:1fr}}
+.testimonial{
+  padding:32px;border-radius:var(--radius);
+  background:var(--glass);border:1px solid var(--border);
+  transition:all .4s var(--ease);
+  display:flex;flex-direction:column;gap:20px;
+}
+.testimonial:hover{transform:translateY(-4px);border-color:rgba(92,225,230,0.2)}
+.stars{display:flex;gap:2px;color:#FFC857}
+.stars svg{width:18px;height:18px}
+.testimonial-text{font-size:1rem;color:var(--white);line-height:1.7;flex:1}
+.testimonial-author{display:flex;align-items:center;gap:14px;padding-top:20px;border-top:1px solid var(--border)}
+.avatar{
+  width:44px;height:44px;border-radius:50%;
+  background:var(--gradient);
+  display:grid;place-items:center;
+  font-weight:700;color:#fff;font-size:16px;
+}
+.author-info strong{display:block;font-size:.95rem;font-weight:600}
+.author-info span{font-size:.85rem;color:var(--gray-2)}
+
+/* ============ CTA ============ */
+.cta{
+  padding:100px 0;
+  background:
+    radial-gradient(ellipse at center,rgba(92,225,230,0.15),transparent 60%),
+    linear-gradient(135deg,rgba(47,128,237,0.2),rgba(92,225,230,0.1));
+  position:relative;overflow:hidden;
+}
+.cta-box{
+  text-align:center;max-width:720px;margin:0 auto;
+  padding:72px 40px;border-radius:var(--radius-lg);
+  background:rgba(11,22,35,0.6);
+  border:1px solid rgba(92,225,230,0.2);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  position:relative;overflow:hidden;
+}
+.cta-box::before{
+  content:"";position:absolute;inset:-1px;border-radius:inherit;padding:1px;
+  background:var(--gradient);
+  -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;mask-composite:exclude;
+  opacity:.4;
+}
+.cta h2{margin-bottom:16px}
+.cta p{margin-bottom:36px;font-size:1.15rem}
+
+/* ============ FOOTER ============ */
+footer{
+  padding:80px 0 40px;
+  border-top:1px solid var(--border);
+  background:var(--bg-2);
+}
+.footer-grid{
+  display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;
+  margin-bottom:60px;
+}
+@media (max-width:900px){.footer-grid{grid-template-columns:1fr 1fr;gap:40px}}
+@media (max-width:500px){.footer-grid{grid-template-columns:1fr}}
+.footer-brand p{margin-top:16px;max-width:320px;font-size:.95rem}
+.footer-col h4{
+  font-size:.85rem;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--gray);margin-bottom:20px;font-weight:600;
+}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+.footer-col a{font-size:.95rem;color:var(--gray);transition:color .3s}
+.footer-col a:hover{color:var(--cyan)}
+.contact-item{display:flex;align-items:center;gap:10px;color:var(--gray);font-size:.95rem}
+.contact-item svg{width:16px;height:16px;color:var(--cyan)}
+.footer-bottom{
+  padding-top:32px;border-top:1px solid var(--border);
+  display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;
+  font-size:.9rem;color:var(--gray-2);
+}
+
+/* ============ ANIMATIONS ============ */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-delay-1{transition-delay:.1s}
+.reveal-delay-2{transition-delay:.2s}
+.reveal-delay-3{transition-delay:.3s}
+.reveal-delay-4{transition-delay:.4s}
+
+/* ============ A11Y ============ */
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:6px}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#" class="logo" aria-label="AOSIS IA Solutions - Accueil">
+      <span class="logo-mark">
+        <svg viewBox="0 0 200 200" class="logo-svg" aria-hidden="true">
+          <circle class="outer-circle" cx="100" cy="100" r="70" stroke-width="3" fill="none" stroke-dasharray="440"/>
+          <circle class="node" cx="100" cy="30" r="12"/>
+          <circle class="node" cx="40" cy="130" r="12"/>
+          <circle class="node" cx="160" cy="130" r="12"/>
+          <circle class="center-circle" cx="100" cy="100" r="18"/>
+          <circle class="center-dot" cx="100" cy="100" r="8"/>
+          <line class="connection" x1="100" y1="30" x2="40" y2="130" stroke-width="3"/>
+          <line class="connection" x1="100" y1="30" x2="160" y2="130" stroke-width="3"/>
+          <line class="connection-bottom" x1="40" y1="130" x2="160" y2="130" stroke-width="2"/>
+          <line class="connection" x1="100" y1="100" x2="100" y2="30" stroke-width="3"/>
+          <line class="connection" x1="100" y1="100" x2="40" y2="130" stroke-width="3"/>
+          <line class="connection" x1="100" y1="100" x2="160" y2="130" stroke-width="3"/>
+        </svg>
+      </span>
+      <span>AOSIS <span class="gradient-text">IA</span></span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Navigation principale">
+      <a href="#services">Services</a>
+      <a href="#approche">Approche</a>
+      <a href="#temoignages">Témoignages</a>
+      <a href="#contact" class="btn btn-primary nav-cta">Consultation</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="container hero-content">
+    <div class="hero-badge reveal"><span class="dot"></span>Disponible pour nouveaux projets · Québec</div>
+    <div class="hero-logo reveal reveal-delay-1" aria-label="Logo AOSIS">
+      <svg viewBox="0 0 200 200" class="logo-svg" aria-hidden="true">
+        <circle class="outer-circle" cx="100" cy="100" r="70" stroke-width="3" fill="none" stroke-dasharray="440"/>
+        <circle class="node" cx="100" cy="30" r="12"/>
+        <circle class="node" cx="40" cy="130" r="12"/>
+        <circle class="node" cx="160" cy="130" r="12"/>
+        <circle class="center-circle" cx="100" cy="100" r="18"/>
+        <circle class="center-dot" cx="100" cy="100" r="8"/>
+        <line class="connection" x1="100" y1="30" x2="40" y2="130" stroke-width="3"/>
+        <line class="connection" x1="100" y1="30" x2="160" y2="130" stroke-width="3"/>
+        <line class="connection-bottom" x1="40" y1="130" x2="160" y2="130" stroke-width="2"/>
+        <line class="connection" x1="100" y1="100" x2="100" y2="30" stroke-width="3"/>
+        <line class="connection" x1="100" y1="100" x2="40" y2="130" stroke-width="3"/>
+        <line class="connection" x1="100" y1="100" x2="160" y2="130" stroke-width="3"/>
+      </svg>
+    </div>
+    <h1 class="reveal reveal-delay-2">L'<span class="gradient-text">IA</span> au service des entreprises locales</h1>
+    <p class="lead reveal reveal-delay-3">Nous aidons les entreprises locales à développer leur visibilité, attirer davantage de clients et accélérer leur croissance grâce à l'intelligence artificielle.</p>
+    <div class="hero-cta reveal reveal-delay-4">
+      <a href="#contact" class="btn btn-primary">
+        Obtenir une consultation gratuite
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#services" class="btn btn-secondary">Découvrir nos services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ POURQUOI AOSIS ============ -->
+<section id="pourquoi">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Pourquoi AOSIS</span>
+      <h2>Trois leviers pour <span class="gradient-text">dominer</span> votre marché</h2>
+      <p>Une approche combinant visibilité, conversion et automatisation pour transformer votre présence locale en machine à clients.</p>
+    </div>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3>Visibilité locale</h3>
+        <p>Soyez trouvé avant vos concurrents sur Google, là et quand vos clients vous recherchent.</p>
+      </article>
+      <article class="card reveal reveal-delay-1">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Génération de clients</h3>
+        <p>Transformez votre visibilité en demandes de soumission qualifiées, chaque semaine.</p>
+      </article>
+      <article class="card reveal reveal-delay-2">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6v6H9zM9 3v6M15 3v6M9 15v6M15 15v6M3 9h6M3 15h6M15 9h6M15 15h6"/></svg>
+        </div>
+        <h3>Intelligence artificielle</h3>
+        <p>Automatisez les tâches répétitives et concentrez-vous sur ce qui compte : votre entreprise.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services" style="background:linear-gradient(180deg,transparent,rgba(47,128,237,0.03),transparent)">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Nos services</span>
+      <h2>Des solutions <span class="gradient-text">complètes</span> pour votre croissance</h2>
+      <p>Six expertises combinées pour bâtir une présence locale dominante et rentable.</p>
+    </div>
+    <div class="services">
+      <article class="service reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+        <h3>Google Business Profile</h3>
+        <p>Augmentez votre présence locale et convertissez chaque recherche en client.</p>
+      </article>
+      <article class="service reveal reveal-delay-1">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div>
+        <h3>SEO local</h3>
+        <p>Optimisez votre référencement naturel pour dominer les recherches de votre région.</p>
+      </article>
+      <article class="service reveal reveal-delay-2">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+        <h3>Génération de clients</h3>
+        <p>Obtenez davantage de demandes qualifiées grâce à des tunnels de conversion optimisés.</p>
+      </article>
+      <article class="service reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v3"/></svg></div>
+        <h3>Automatisation IA</h3>
+        <p>Automatisez vos suivis clients et gagnez des heures chaque semaine.</p>
+      </article>
+      <article class="service reveal reveal-delay-1">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+        <h3>Stratégie numérique</h3>
+        <p>Une stratégie personnalisée, calibrée pour votre marché et vos objectifs.</p>
+      </article>
+      <article class="service reveal reveal-delay-2">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+        <h3>Présence Web</h3>
+        <p>Landing pages performantes et sites modernes, pensés pour convertir.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section id="stats">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Pourquoi nous choisir</span>
+      <h2>Des résultats <span class="gradient-text">mesurables</span></h2>
+      <p>Nos clients constatent des améliorations concrètes dès les premières semaines.</p>
+    </div>
+    <div class="stats">
+      <div class="stat reveal">
+        <div class="stat-num" data-target="250" data-suffix="%">+0%</div>
+        <div class="stat-label">de visibilité</div>
+      </div>
+      <div class="stat reveal reveal-delay-1">
+        <div class="stat-num" data-target="180" data-suffix="%">+0%</div>
+        <div class="stat-label">de demandes</div>
+      </div>
+      <div class="stat reveal reveal-delay-2">
+        <div class="stat-num" data-target="24" data-suffix="/7">0/7</div>
+        <div class="stat-label">Automatisation IA</div>
+      </div>
+      <div class="stat reveal reveal-delay-3">
+        <div class="stat-num" data-target="100" data-suffix="%">0%</div>
+        <div class="stat-label">Stratégie personnalisée</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APPROCHE ============ -->
+<section id="approche">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Notre approche</span>
+      <h2>Une méthode <span class="gradient-text">éprouvée</span> en 4 étapes</h2>
+      <p>Un processus clair, transparent et orienté résultats, de l'analyse à la croissance.</p>
+    </div>
+    <div class="timeline">
+      <div class="step reveal" data-num="1">
+        <h3>Analyse</h3>
+        <p>Audit complet de votre présence locale, de vos concurrents et de votre marché pour identifier les leviers de croissance prioritaires.</p>
+      </div>
+      <div class="step reveal reveal-delay-1" data-num="2">
+        <h3>Stratégie</h3>
+        <p>Conception d'un plan d'action sur mesure, aligné sur vos objectifs business et vos ressources.</p>
+      </div>
+      <div class="step reveal reveal-delay-2" data-num="3">
+        <h3>Optimisation</h3>
+        <p>Mise en œuvre des solutions IA, SEO et d'automatisation, avec un suivi rigoureux des indicateurs clés.</p>
+      </div>
+      <div class="step reveal reveal-delay-3" data-num="4">
+        <h3>Croissance</h3>
+        <p>Accélération continue des performances, scaling des acquis et exploration de nouveaux leviers de développement.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section id="temoignages" style="background:linear-gradient(180deg,transparent,rgba(92,225,230,0.03),transparent)">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Témoignages</span>
+      <h2>Ils nous font <span class="gradient-text">confiance</span></h2>
+      <p>Des entreprises locales qui ont transformé leur croissance avec AOSIS.</p>
+    </div>
+    <div class="testimonials">
+      <article class="testimonial reveal">
+        <div class="stars" aria-label="5 étoiles">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+        </div>
+        <p class="testimonial-text">« En 3 mois, nos demandes de soumission ont été multipliées par 3. L'automatisation IA nous a fait gagner un temps fou sur le suivi client. »</p>
+        <div class="testimonial-author">
+          <div class="avatar">ML</div>
+          <div class="author-info"><strong>Marie L.</strong><span>Plombier · Québec</span></div>
+        </div>
+      </article>
+      <article class="testimonial reveal reveal-delay-1">
+        <div class="stars" aria-label="5 étoiles">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+        </div>
+        <p class="testimonial-text">« On est passé de la 12ᵉ place à la 1ʳᵉ sur Google Maps en moins de 4 mois. L'équipe est rigoureuse, transparente et à l'écoute. »</p>
+        <div class="testimonial-author">
+          <div class="avatar">JT</div>
+          <div class="author-info"><strong>Jean T.</strong><span>Restaurant · Lévis</span></div>
+        </div>
+      </article>
+      <article class="testimonial reveal reveal-delay-2">
+        <div class="stars" aria-label="5 étoiles">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9"/></svg>
+        </div>
+        <p class="testimonial-text">« La nouvelle landing page convertit 4 fois mieux que l'ancienne. Le ROI a été visible dès le premier mois. Je recommande sans hésiter. »</p>
+        <div class="testimonial-author">
+          <div class="avatar">SB</div>
+          <div class="author-info"><strong>Sophie B.</strong><span>Entrepreneur · Québec</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta" id="contact">
+  <div class="container">
+    <div class="cta-box reveal">
+      <span class="eyebrow">Prêt à commencer ?</span>
+      <h2>Prêt à <span class="gradient-text">dominer</span> votre marché local ?</h2>
+      <p>Parlons de votre projet dès aujourd'hui. Consultation gratuite et sans engagement.</p>
+      <div class="hero-cta">
+        <a href="tel:+13673302814" class="btn btn-primary">
+          Réserver un appel
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+        <a href="mailto:aosis.iasolutions@gmail.com" class="btn btn-secondary">Nous écrire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-mark" style="width:48px;height:48px">
+            <svg viewBox="0 0 200 200" class="logo-svg" aria-hidden="true">
+              <circle class="outer-circle" cx="100" cy="100" r="70" stroke-width="3" fill="none" stroke-dasharray="440"/>
+              <circle class="node" cx="100" cy="30" r="12"/>
+              <circle class="node" cx="40" cy="130" r="12"/>
+              <circle class="node" cx="160" cy="130" r="12"/>
+              <circle class="center-circle" cx="100" cy="100" r="18"/>
+              <circle class="center-dot" cx="100" cy="100" r="8"/>
+              <line class="connection" x1="100" y1="30" x2="40" y2="130" stroke-width="3"/>
+              <line class="connection" x1="100" y1="30" x2="160" y2="130" stroke-width="3"/>
+              <line class="connection-bottom" x1="40" y1="130" x2="160" y2="130" stroke-width="2"/>
+              <line class="connection" x1="100" y1="100" x2="100" y2="30" stroke-width="3"/>
+              <line class="connection" x1="100" y1="100" x2="40" y2="130" stroke-width="3"/>
+              <line class="connection" x1="100" y1="100" x2="160" y2="130" stroke-width="3"/>
+            </svg>
+          </span>
+          <span>AOSIS <span class="gradient-text">IA</span> Solutions</span>
+        </a>
+        <p>L'intelligence artificielle au service des entreprises locales de Québec et d'ailleurs.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Liens rapides</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#approche">Approche</a></li>
+          <li><a href="#temoignages">Témoignages</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Légal</h4>
+        <ul>
+          <li><a href="#">Politique de confidentialité</a></li>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Conditions d'utilisation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Québec City, QC
+          </li>
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+13673302814">367-330-2814</a>
+          </li>
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:aosis.iasolutions@gmail.com">aosis.iasolutions@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 AOSIS IA Solutions · Tous droits réservés.</div>
+      <div>Fait avec soin à Québec 🇨</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ============ NAV SCROLL ============ */
+const nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>20)},{passive:true});
+
+/* ============ MENU MOBILE ============ */
+const toggle=document.getElementById('menuToggle');
+const links=document.getElementById('navLinks');
+toggle.addEventListener('click',()=>{
+  const open=links.classList.toggle('open');
+  toggle.setAttribute('aria-expanded',open);
+});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+  links.classList.remove('open');toggle.setAttribute('aria-expanded','false');
+}));
+
+/* ============ REVEAL ON SCROLL ============ */
+const io=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target);}});
+},{threshold:0.12,rootMargin:'0px 0px -60px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* ============ COUNTERS ============ */
+const counters=document.querySelectorAll('.stat-num');
+const counterIO=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      const el=e.target;
+      const target=+el.dataset.target;
+      const suffix=el.dataset.suffix||'';
+      const prefix=el.textContent.startsWith('+')?'+':'';
+      let cur=0;const dur=1800;const start=performance.now();
+      const step=(t)=>{
+        const p=Math.min((t-start)/dur,1);
+        const eased=1-Math.pow(1-p,3);
+        cur=Math.floor(eased*target);
+        el.textContent=prefix+cur+suffix;
+        if(p<1)requestAnimationFrame(step);else el.textContent=prefix+target+suffix;
+      };
+      requestAnimationFrame(step);
+      counterIO.unobserve(el);
+    }
+  });
+},{threshold:0.5});
+counters.forEach(c=>counterIO.observe(c));
+
+/* ============ PARTICLES ============ */
+const canvas=document.getElementById('particles');
+const ctx=canvas.getContext('2d');
+let w,h,particles=[];
+const resize=()=>{w=canvas.width=canvas.offsetWidth;h=canvas.height=canvas.offsetHeight};
+resize();window.addEventListener('resize',resize);
+const count=window.innerWidth<768?30:60;
+for(let i=0;i<count;i++){
+  particles.push({
+    x:Math.random()*w,y:Math.random()*h,
+    vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,
+    r:Math.random()*1.6+.4,
+    o:Math.random()*.5+.2
+  });
+}
+let mouseX=-9999,mouseY=-9999;
+canvas.parentElement.addEventListener('mousemove',(e)=>{
+  const r=canvas.getBoundingClientRect();
+  mouseX=e.clientX-r.left;mouseY=e.clientY-r.top;
+},{passive:true});
+const draw=()=>{
+  ctx.clearRect(0,0,w,h);
+  particles.forEach(p=>{
+    p.x+=p.vx;p.y+=p.vy;
+    if(p.x<0||p.x>w)p.vx*=-1;
+    if(p.y<0||p.y>h)p.vy*=-1;
+    ctx.beginPath();
+    ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    ctx.fillStyle=`rgba(92,225,230,${p.o})`;
+    ctx.fill();
+  });
+  // connections
+  for(let i=0;i<particles.length;i++){
+    for(let j=i+1;j<particles.length;j++){
+      const a=particles[i],b=particles[j];
+      const dx=a.x-b.x,dy=a.y-b.y,d=Math.sqrt(dx*dx+dy*dy);
+      if(d<120){
+        ctx.beginPath();
+        ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);
+        ctx.strokeStyle=`rgba(47,128,237,${0.15*(1-d/120)})`;
+        ctx.lineWidth=.6;ctx.stroke();
+      }
+    }
+    // mouse link
+    const dx=a.x-mouseX,dy=a.y-mouseY,d=Math.sqrt(dx*dx+dy*dy);
+    if(d<160){
+      ctx.beginPath();
+      ctx.moveTo(a.x,a.y);ctx.lineTo(mouseX,mouseY);
+      ctx.strokeStyle=`rgba(92,225,230,${0.3*(1-d/160)})`;
+      ctx.lineWidth=.8;ctx.stroke();
+    }
+  }
+  requestAnimationFrame(draw);
+};
+draw();
+
+/* ============ SMOOTH ANCHOR ============ */
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',(e)=>{
+    const id=a.getAttribute('href');
+    if(id.length>1){
+      const t=document.querySelector(id);
+      if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}
+    }
+  });
+});
+</script>
+
+</body>
+</html>
